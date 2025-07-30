@@ -3,7 +3,7 @@ import axios from 'axios';
 import './App.css';
 
 const API_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://react-news-app-backend.onrender.com/api'
+  ? 'https://react-news-app-backend-2024.onrender.com/api'
   : 'http://localhost:5000/api';
 
 function App() {
